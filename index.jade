@@ -1,0 +1,41 @@
+doctype html
+html
+  head
+    meta(charset="utf-8")
+    - var page = "Home"
+    title= page + " - TamsuiCM11"
+    link(rel="stylesheet",type="text/css",href="style.min.css")
+    link(href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400',rel='stylesheet',type='text/css')
+    link(href='http://fonts.googleapis.com/css?family=Roboto:400,400italic',rel='stylesheet',type='text/css')
+    meta(name="viewport",content="width=device-width")
+    script(src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js")
+    script(src="stuff.min.js")
+    script(src="//cdnjs.cloudflare.com/ajax/libs/showdown/0.3.1/showdown.min.js")
+  body
+    header
+      img#logo(src="MarckozZ_art.png")
+      img#logo-small(src="MarckozZ_art_small.png")
+      nav.menu
+        ul
+          li
+            a#home-link(href="#",data-href="home") Home
+          li
+            a#devices-link(href="#",data-href="devices") Supported Devices
+          li
+            a#changelog-link(href="#",data-href="changelog") Changelog
+          li
+            a#downloads-link(href="#",data-href="downloads") Downloads
+          li
+            a#source-link(href="#",data-href="source") Source
+          li
+            a#projects-link(href="#",data-href="projects") Secondary Projects
+    main
+    footer
+      |Copyright &copy; 2014 TamsuiCM11. All rights reserved.
+      br
+      |CyanogenMod is a registered trademark of Cyanogen, Inc.
+      br
+      |Title art thanks to MarckozZ @ XDA-Developers
+      br
+      |Showdown Markdown library license
+      a(href="https://github.com/coreyti/showdown/blob/master/license.txt")&nbsp;here

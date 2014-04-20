@@ -1,0 +1,125 @@
+*,*:before,*:after { 
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+body {
+	font-family:'Open Sans',sans-serif;
+	font-weight:400;
+	background-color:rgb(57,56,56);
+	color:rgb(238,238,238);
+}
+header,footer {
+	text-align:center;
+}
+h1,h2,strong {
+	font-family:'Roboto',sans-serif;
+	font-weight:400;
+}
+nav.menu > ul {
+	padding:0;
+}
+nav.menu > ul > li {
+	display:inline-block;
+	width:16.656%;
+	text-align:center;
+}
+nav.menu li > a {
+	display:block;
+	width:100%;
+	padding-bottom:0.5em;
+}
+main,#logo {
+	width:60%;
+	margin:0 auto;
+}
+#logo { 
+	max-width:728px;
+}
+#logo-small {
+	display:none;
+	width:100%;
+	max-width:300px;
+}
+a { 
+	color:inherit;
+	text-decoration:none;
+	transition:border-bottom 1s;
+	-ms-transition:border-bottom 1s;
+	-moz-transition:border-bottom 1s;
+	-webkit-transition:border-bottom 1s;
+	border-bottom:1px solid rgb(100,100,100);
+}
+a:hover {
+	border-bottom:1px solid rgb(238,238,238);
+}
+strong { font-size:1.3em; }
+main img { max-width:50%; }
+td {
+	padding:1em 3.333%;
+	width:30%;
+	text-align:right;
+}
+table,tbody,td {
+	display:block;
+	width:100%;
+}
+thead { display:none; }
+
+tr { 
+	display:inline-block;
+	width:49.75%;
+	position:relative; 
+	padding:2em;
+	background: -webkit-linear-gradient(rgba(57,56,56,1), rgba(0,0,0,0));
+	background: -o-linear-gradient(rgba(57,56,56,1), rgba(0,0,0,0));
+	background: -moz-linear-gradient(rgba(57,56,56,1), rgba(0,0,0,0)); 
+	background: linear-gradient(rgba(57,56,56,1), rgba(0,0,0,0)); 
+}
+tr:before {
+content:"";
+opacity:0.3;
+top:0;
+left:0;
+bottom:0;
+right:0;
+position:absolute;
+z-index:-1;
+background-repeat:no-repeat;
+background-position:center bottom;
+}
+tr:nth-child(odd) { border-right:1px solid rgba(255,255,255,0.1); }
+
+
+tr:nth-child(1):before { background-image:url(devices/nanhu.png); }
+tr:nth-child(2):before { background-image:url(devices/jlo.png); }
+tr:nth-child(3):before { background-image:url(devices/mesona.png); }
+tr:nth-child(4):before { background-image:url(devices/tapioca.png); }
+
+td:nth-child(1):before { content:'Device:'; }
+td:nth-child(2):before { content:'Maintainers:'; }
+td:nth-child(3):before { content:'Status:'; }
+td:before { 
+	text-align:left;
+	display:block; 
+	font-style:italic;
+}
+footer {
+	font-size:60%;
+	padding-top:3em;
+}
+@media (max-width:900px) { /* big menus */
+	nav.menu > ul > li { 
+		width:100%;
+		padding:0.5em 0; 
+	}
+}
+@media (max-width:768px) {
+	main,#logo { width:80%; }
+}
+@media (max-width:500px) {
+	main,main img,tr  { width:100%; max-width:100%; }
+	tr:nth-child(odd) { border-right:0; }
+	#logo { display:none; }
+	#logo-small { display:inline-block; }
+}
