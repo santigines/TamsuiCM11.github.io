@@ -13,4 +13,4 @@ We are a group of unofficial maintainers of the CyanogenMod custom ROM for certa
 
 <img src="sim_message.png" />
 
-*Do not tap Restart - instead, tap on the empty space around the message.*
+**Do not tap Restart - instead, tap on the empty space around the message.**
