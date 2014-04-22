@@ -6,11 +6,7 @@
 body {
 	font-family:'Open Sans',sans-serif;
 	font-weight:400;
-	background:rgb(57,56,56);
-	background:linear-gradient(to right,rgb(51,52,52),rgb(56,57,57));
-	background:-webkit-linear-gradient(left,rgb(51,52,52),rgb(56,57,57)); 
-	background:-o-linear-gradient(right,rgb(51,52,52),rgb(56,57,57)); 
-	background:-moz-linear-gradient(right,rgb(51,52,52),rgb(56,57,57)); 
+	background-color:rgb(56,56,55);
 	color:rgb(238,238,238);
 }
 header,footer {
