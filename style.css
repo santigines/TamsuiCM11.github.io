@@ -68,13 +68,13 @@ thead { display:none; }
 
 tr { 
 	display:inline-block;
-	width:49.75%;
+	width:49%;
 	position:relative; 
 	padding:2em;
-	background: -webkit-linear-gradient(rgba(57,56,56,1), rgba(0,0,0,0));
-	background: -o-linear-gradient(rgba(57,56,56,1), rgba(0,0,0,0));
-	background: -moz-linear-gradient(rgba(57,56,56,1), rgba(0,0,0,0)); 
-	background: linear-gradient(rgba(57,56,56,1), rgba(0,0,0,0)); 
+	background: -webkit-linear-gradient(rgba(57,56,56,1), rgba(0,0,0,0.2));
+	background: -o-linear-gradient(rgba(57,56,56,1), rgba(0,0,0,0.2));
+	background: -moz-linear-gradient(rgba(57,56,56,1), rgba(0,0,0,0.2)); 
+	background: linear-gradient(rgba(57,56,56,1), rgba(0,0,0,0.2)); 
 }
 tr:before {
 content:"";
