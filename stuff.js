@@ -21,10 +21,9 @@ $(document).ready(function(){
 	$("a#projects-link").click(function(){
 		loadPage("projects");
 	});
+	function loadPage(page) {
+		$.get(page+".md",function(resp){
+				$("main").fadeOut(500).html(a.makeHtml(resp)).fadeIn(500);
+		});
+	}
 });
-
-function loadPage(page) {
-	$.get(page+".md",function(resp){
-			$("main").fadeOut(500).html(a.makeHtml(resp)).fadeIn(500);
-	});
-}
