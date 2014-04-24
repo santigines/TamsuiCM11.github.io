@@ -4,22 +4,22 @@ $(document).ready(function(){
     	$("main").html(a.makeHtml(resp));
 	});
 	$("a#home-link").click(function(){
-		loadPage(home)
+		loadPage("home")
 	});
 	$("a#devices-link").click(function(){
-		loadPage(devices);
+		loadPage("devices");
 	});
 	$("a#changelog-link").click(function(){
-		loadPage(changelog);
+		loadPage("changelog");
 	});
 	$("a#downloads-link").click(function(){
-		loadPage(downloads);
+		loadPage("downloads");
 	});
 	$("a#source-link").click(function(){
-		loadPage(source);
+		loadPage("source");
 	});
 	$("a#projects-link").click(function(){
-		loadPage(projects);
+		loadPage("projects");
 	});
 });
 
