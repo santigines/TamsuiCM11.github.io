@@ -4,45 +4,27 @@ $(document).ready(function(){
     	$("main").html(a.makeHtml(resp));
 	});
 	$("a#home-link").click(function(){
-		$("main").fadeOut(500,function(){
-			$.get("home.md",function(resp) {
-    			$("main").html(a.makeHtml(resp));
-			});
-		}).fadeIn(500);
+		loadPage(home)
 	});
 	$("a#devices-link").click(function(){
-		$("main").fadeOut(500,function(){
-			$.get("devices.md",function(resp) {
-    			$("main").html(a.makeHtml(resp));
-			});
-		}).fadeIn(500);
+		loadPage(devices);
 	});
 	$("a#changelog-link").click(function(){
-		$("main").fadeOut(500,function(){
-			$.get("changelog.md",function(resp) {
-    			$("main").html(a.makeHtml(resp));
-			});
-		}).fadeIn(500);
+		loadPage(changelog);
 	});
 	$("a#downloads-link").click(function(){
-		$("main").fadeOut(500,function(){
-			$.get("downloads.md",function(resp) {
-    			$("main").html(a.makeHtml(resp));
-			});
-		}).fadeIn(500);
+		loadPage(downloads);
 	});
 	$("a#source-link").click(function(){
-		$("main").fadeOut(500,function(){
-			$.get("source.md",function(resp) {
-    			$("main").html(a.makeHtml(resp));
-			});
-		}).fadeIn(500);
+		loadPage(source);
 	});
 	$("a#projects-link").click(function(){
-		$("main").fadeOut(500,function(){
-			$.get("projects.md",function(resp) {
-    			$("main").html(a.makeHtml(resp));
-			});
-		}).fadeIn(500);
+		loadPage(projects);
 	});
 });
+
+function loadPage(page) {
+	$.get(page+".md",function(resp){
+			$("main").fadeOut(500).html(a.makeHtml(resp)).fadeIn(500);
+	});
+}
