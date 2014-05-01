@@ -2,6 +2,12 @@
 
 - **TCM101 - Alpha**
 CM11.0
+  - Source update
+  - Kernel update and optimization *(jlo)*
+  - Significant performance improvement according to kernel update *(jlo)*
+
+- **TCM101 - Alpha**
+CM11.0
   - Source update - CM11 M5
   - Internal fixes
 
