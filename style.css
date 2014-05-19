@@ -50,8 +50,9 @@ a {
 	-webkit-transition:border-bottom 1s;
 	border-bottom:1px solid rgb(100,100,100);
 }
-a:hover {
+a:hover,a:focus {
 	border-bottom:1px solid rgb(238,238,238);
+	outline:none;
 }
 strong { font-size:1.3em; }
 main img { max-width:50%; }
@@ -71,10 +72,10 @@ tr {
 	width:49%;
 	position:relative; 
 	padding:2em;
-	background: -webkit-linear-gradient(rgba(57,56,56,1), rgba(0,0,0,0.2));
-	background: -o-linear-gradient(rgba(57,56,56,1), rgba(0,0,0,0.2));
-	background: -moz-linear-gradient(rgba(57,56,56,1), rgba(0,0,0,0.2)); 
-	background: linear-gradient(rgba(57,56,56,1), rgba(0,0,0,0.2)); 
+	background: -webkit-linear-gradient(rgba(57,56,56,1), rgba(0,0,0,0));
+	background: -o-linear-gradient(rgba(57,56,56,1), rgba(0,0,0,0));
+	background: -moz-linear-gradient(rgba(57,56,56,1), rgba(0,0,0,0)); 
+	background: linear-gradient(rgba(57,56,56,1), rgba(0,0,0,0)); 
 }
 tr:before {
 content:"";
