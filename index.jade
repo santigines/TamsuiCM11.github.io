@@ -9,7 +9,7 @@ html
     link(href='http://fonts.googleapis.com/css?family=Roboto:400,400italic',rel='stylesheet',type='text/css')
     meta(name="viewport",content="width=device-width")
     script(src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js")
-    script(src="stuff.min.js")
+    script(src="pagechanger.min.js")
     script(src="//cdnjs.cloudflare.com/ajax/libs/showdown/0.3.1/showdown.min.js")
   body
     header
@@ -18,17 +18,17 @@ html
       nav.menu
         ul
           li
-            a#home-link(href="#",data-href="home") Home
+            a#home(href="#home") Home
           li
-            a#devices-link(href="#",data-href="devices") Supported Devices
+            a#devices(href="#devices") Supported Devices
           li
-            a#changelog-link(href="#",data-href="changelog") Changelog
+            a#changelog(href="#changelog") Changelog
           li
-            a#downloads-link(href="#",data-href="downloads") Downloads
+            a#downloads(href="#downloads") Downloads
           li
-            a#source-link(href="#",data-href="source") Source
+            a#source(href="#source") Source
           li
-            a#projects-link(href="#",data-href="projects") Secondary Projects
+            a#projects(href="#projects") Secondary Projects
     main
     footer
       |Copyright &copy; 2014 TamsuiCM11. All rights reserved.
