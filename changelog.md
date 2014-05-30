@@ -1,14 +1,22 @@
 ## Changelog - TamsuiCM11
 
+- **TCM102 - Alpha**
+CM11.0
+  - Latest CM11
+  - Fixed a bug where setting the brightness to higher than 50% would result in the display not turning on
+  - Fixed a system crash when user attempted to change volume via volume keys
+  - Fixed an issue where the SIM was reported as absent at each boot
+  - Switched from audio-legacy HAL to audio-caf HAL
+
 - **TCM101 - Alpha**
 CM11.0
-  - Source update
+  - Latest CM11
   - Kernel update and optimization *(jlo)*
   - Significant performance improvement according to kernel update *(jlo)*
 
 - **TCM101 - Alpha**
 CM11.0
-  - Source update - CM11 M5
+  - Latest CM11
   - Internal fixes
 
 - **TCM100 - Alpha**
