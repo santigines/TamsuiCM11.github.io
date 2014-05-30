@@ -3,14 +3,11 @@ We are a group of unofficial maintainers of the CyanogenMod custom ROM for certa
 
 **Current status - Alpha**
 
-(18.03.2014) Major bugs we have to fix for all devices are:
-- Camera
-- Video playback
-- Finish audio HAL
-- Screen wake on some brightness levels.
-
-*After installing CM11, when the device starts up, you may get the following message:*
-
-<img src="sim_message.png" />
-
-**Do not tap Restart - instead, tap on the empty space around the message.**
+(30.05.2014) What we are are currently working on and issues we are trying to resolve:
+- Fix camera
+- Fix H/W video playback
+- Update kernel to kk-2.7
+- Use unified kernel for all devices
+- Support dual-SIM devices
+- Enforce SELinux
+- Switch from PMEM legacy HALs to ION HALs (media-caf, display-caf)
