@@ -6,4 +6,4 @@ Click the respective device name to download:
 - Xperia J: [Download on d-h.st](http://d-h.st/2wy)
 - Xperia Miro: [Download on shivangdave.com](http://shivangdave.com/roms.html)
 - Xperia Tipo: [Download on d-h.st](http://d-h.st/T48)
-- Xperia E WiFi Kernel: [Download on mega.co.nz](https://mega.co.nz/#!IlkzibSS!Xn9YoudsjJybrULSLka7H0Z0IeqaK6ecVQuK050iVb0)
+- Xperia E Battery Fixed Kernel: [Download on mega.co.nz](https://mega.co.nz/#!BlcFkThD!Wqp0rbBP1JNW9FDFbZfqh0aEbGxtD5HGW0QE5coEiBg)
