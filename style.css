@@ -29,7 +29,7 @@ nav.menu > ul > li {
 nav.menu li > a {
 	display:block;
 	width:100%;
-	padding-bottom:0.5em;
+	padding:1em 0;
 }
 main,#logo {
 	width:60%;
@@ -125,7 +125,6 @@ footer {
 @media (max-width:900px) { /* big menus */
 	nav.menu > ul > li { 
 		width:100%;
-		padding:0.5em 0; 
 	}
 }
 @media (max-width:768px) {
