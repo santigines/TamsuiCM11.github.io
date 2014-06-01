@@ -23,7 +23,7 @@
 <tr>
 <td>Xperia Miro (mesona)</td>
 <td>ShivangDave</td>
-<td>Usable</td>
+<td>Usable, stable</td>
 </tr>
 <tr>
 <td>Xperia Tipo (tapioca)</td>
