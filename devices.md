@@ -13,7 +13,7 @@
 <tr>
 <td>Xperia E (nanhu)</td>
 <td>UltraGamerHD, jjm34, hsr0</td>
-<td>Usable</td>
+<td>Usable, Stable</td>
 </tr>
 <tr>
 <td>Xperia J (jlo)</td>
