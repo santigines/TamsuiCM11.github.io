@@ -2,6 +2,10 @@
 
 Other side projects, made by TamsuiCM11 members, but given less priority as compared to CyanogenMod 11.
 
+Xperia E: CarbonROM 4.4.2 unofficial builds
+
+- [20140601 / 1st June 2014](https://mega.co.nz/#!s08ggIqJ!dvErXyFUEwLBy2gOhnZINl02mJ4DAVHZHJMq6C_ROs4)
+
 Xperia J: CarbonROM 4.4.2 unofficial builds
 
 - [20140403 / 3rd April, 2014](http://d-h.st/aVs)
