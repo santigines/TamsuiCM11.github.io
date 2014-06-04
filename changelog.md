@@ -7,6 +7,7 @@ CM11.0
   - Fixed a system crash when user attempted to change volume via volume keys
   - Fixed an issue where the SIM was reported as absent at each boot
   - Switched from audio-legacy HAL to audio-caf HAL
+  - Fixed ART *(Tipo, Miro)*
 
 - **TCM101 - Alpha**
 CM11.0
